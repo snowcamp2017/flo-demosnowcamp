@@ -14,6 +14,7 @@ app.use(express.static('public'));
 app.get('/hello/world', (req, res) => {
   res.send({
     message: "Hello 🌏!"
+    whoami: "flo"
   })
 });
 
