@@ -13,7 +13,7 @@ app.use(express.static('public'));
 
 app.get('/hello/world', (req, res) => {
   res.send({
-    message: "Hello 🌏!",
+    message: "Hello world new 🌏!",
     whoami: "flo update2"
   })
 });
